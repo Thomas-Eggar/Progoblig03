@@ -1,0 +1,27 @@
+#strand med sol og sky#
+
+
+bakgrunn = rectangle(500, 500, "solid", "powder-blue")
+strand1 = rectangle(500, 90, "solid", "wheat")
+strand2 = rectangle(500, 70, "solid", "moccasin")
+hav1 = rectangle(500, 60, "solid", "light-sky-blue")
+hav2 = rectangle(500, 40, "solid", "cornflower-blue")
+hav3 = rectangle(500, 20, "solid", "steel-blue")
+sol = circle(100, "solid", "yellow")
+sky = circle(25, "solid", "white")
+
+
+
+put-image(sky, 100, 360, 
+  put-image(sky, 120, 380,
+    put-image(sky, 150, 360, 
+      put-image(sky, 120, 350, 
+    put-image(strand1, 250, 40, 
+          put-image(strand2, 250, 120, 
+            put-image(hav1, 250, 180, 
+              put-image(hav2, 250, 230, 
+                put-image(hav3, 250, 250,
+                  put-image(sol, 350, 300,
+                    bakgrunn))))))))))
+
+                    
